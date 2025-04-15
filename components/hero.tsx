@@ -18,7 +18,7 @@ export default function Hero() {
           >
             <div className="space-y-2">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                Hi, I'm <span className="text-primary">Muhammad Suleman</span>
+              Hi, I'm <span className="text-primary">Muhammad Suleman</span>
               </h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground">
                 Full Stack Developer
@@ -48,14 +48,15 @@ export default function Hero() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-full border-4 border-primary/20">
               <Image
-                src="/images/profile.jpg"
-                alt="Profile"
-                fill
-                className="object-cover"
-                priority
-                onError={(e) => {
-                  e.currentTarget.src = "/placeholder.svg?height=320&width=320"
-                }}
+              src="/images/con2.png"
+              alt="Profile"
+              fill
+              className="object-cover rounded-full"
+              priority
+              onError={(e) => {
+                e.currentTarget.src = "/placeholder.svg?height=320&width=320"
+              }}
+              style={{ objectFit: "cover", objectPosition: "center", imageRendering: "auto" }}
               />
             </div>
           </motion.div>

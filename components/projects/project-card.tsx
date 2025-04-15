@@ -58,11 +58,11 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                 <Github className="h-5 w-5" />
               </a>
             </Button>
-            <Button variant="ghost" size="icon" asChild>
+            {/* <Button variant="ghost" size="icon" asChild>
               <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" aria-label="Live demo">
                 <ExternalLink className="h-5 w-5" />
               </a>
-            </Button>
+            </Button> */}
           </div>
         </CardFooter>
       </Card>
